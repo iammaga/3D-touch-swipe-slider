@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D touch swipe slider</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="sliderText">
+              <h3>Slide one</h3>
+            </div>
+            <div class="content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                neque optio provident blanditiis facilis eveniet placeat dolore
+                est porro itaque! Id enim perferendis quis repellat fugiat
+                dolore libero! Quod, sequi.
+              </p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="sliderText">
+              <h3>Slide two</h3>
+            </div>
+            <div class="content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                neque optio provident blanditiis facilis eveniet placeat dolore
+                est porro itaque! Id enim perferendis quis repellat fugiat
+                dolore libero! Quod, sequi.
+              </p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="sliderText">
+              <h3>Slide three</h3>
+            </div>
+            <div class="content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                neque optio provident blanditiis facilis eveniet placeat dolore
+                est porro itaque! Id enim perferendis quis repellat fugiat
+                dolore libero! Quod, sequi.
+              </p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="sliderText">
+              <h3>Slide four</h3>
+            </div>
+            <div class="content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                neque optio provident blanditiis facilis eveniet placeat dolore
+                est porro itaque! Id enim perferendis quis repellat fugiat
+                dolore libero! Quod, sequi.
+              </p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="sliderText">
+              <h3>Slide five</h3>
+            </div>
+            <div class="content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                neque optio provident blanditiis facilis eveniet placeat dolore
+                est porro itaque! Id enim perferendis quis repellat fugiat
+                dolore libero! Quod, sequi.
+              </p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="sliderText">
+              <h3>Slide six</h3>
+            </div>
+            <div class="content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                neque optio provident blanditiis facilis eveniet placeat dolore
+                est porro itaque! Id enim perferendis quis repellat fugiat
+                dolore libero! Quod, sequi.
+              </p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="sliderText">
+              <h3>Slide seven</h3>
+            </div>
+            <div class="content">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+                neque optio provident blanditiis facilis eveniet placeat dolore
+                est porro itaque! Id enim perferendis quis repellat fugiat
+                dolore libero! Quod, sequi.
+              </p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 30,
+          stretch: 10,
+          depth: 500,
+          modifier: 0.5,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>
